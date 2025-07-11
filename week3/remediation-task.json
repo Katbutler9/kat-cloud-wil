@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "resources": [
+    {
+      "type": "Microsoft.PolicyInsights/remediations",
+      "apiVersion": "2022-06-01",
+      "name": "restrict-remediate",
+      "properties": {
+        "policyAssignmentId": "/subscriptions/<SUBSCRIPTION_ID>/resourceGroups/lab3e-rg/providers/Microsoft.Authorization/policyAssignments/RestrictLocations"
+      }
+    }
+  ]
+}

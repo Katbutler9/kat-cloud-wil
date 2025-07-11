@@ -1,0 +1,9 @@
+{
+  "parameters": {
+    "serverName": { "value": "studentsqlserver-arm" },
+    "adminUser": { "value": "sqladmin" },
+    "adminPassword": { "value": "MySecurePassword123!" },
+    "databaseName": { "value": "studentdb-arm" },
+    "location": { "value": "australiaeast" }
+  }
+}
